@@ -98,13 +98,10 @@ header {
 .logo-k-guitar {
   width: 90px;
   height: 110px;
-  fill: none;
-  stroke: var(--neon-red);
-  stroke-width: 3;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  filter: drop-shadow(0 0 15px var(--neon-red));
+  fill: var(--neon-red); /* Wypełnia całą sylwetkę na czerwono */
+  filter: drop-shadow(0 0 15px var(--neon-red)); /* Dodaje poświatę */
   margin-left: 5px;
+  transform: rotate(20deg); /* Opcjonalnie: lekki obrót poprawia wygląd jako litera 'K' */
 }
 
 @keyframes flicker {
