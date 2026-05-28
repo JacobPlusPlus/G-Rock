@@ -129,7 +129,7 @@ function App() {
         <section className="spotify-section">
           <h2 className="spotify-title">DOŚWIADCZ PEŁNEJ MOCY</h2>
           <br />
-          <a href="#" className="spotify-btn">Odpal Playlistę Spotify 🎧</a>
+          <a href="https://open.spotify.com/playlist/4SgMhgFuhFx4uljc3uX6Fg" className="spotify-btn">Odpal Playlistę Spotify 🎧</a>
         </section>
       </main>
     </>
